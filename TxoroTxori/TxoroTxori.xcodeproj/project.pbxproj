@@ -15,6 +15,7 @@
 		993C1AC619E7042200C17601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993C1AC519E7042200C17601 /* Images.xcassets */; };
 		993C1AC919E7042200C17601 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993C1AC719E7042200C17601 /* LaunchScreen.xib */; };
 		993C1AD519E7042200C17601 /* TxoroTxoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C1AD419E7042200C17601 /* TxoroTxoriTests.swift */; };
+		997D7A2819E70F26002AB393 /* Pintxo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 997D7A2719E70F26002AB393 /* Pintxo2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		993C1ACE19E7042200C17601 /* TxoroTxoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxoroTxoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993C1AD319E7042200C17601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		993C1AD419E7042200C17601 /* TxoroTxoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxoroTxoriTests.swift; sourceTree = "<group>"; };
+		997D7A2719E70F26002AB393 /* Pintxo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pintxo2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		993C1AAC19E7042200C17601 = {
 			isa = PBXGroup;
 			children = (
+				997D7A2719E70F26002AB393 /* Pintxo2.mp3 */,
 				993C1AB719E7042200C17601 /* TxoroTxori */,
 				993C1AD119E7042200C17601 /* TxoroTxoriTests */,
 				993C1AB619E7042200C17601 /* Products */,
@@ -200,6 +203,7 @@
 			files = (
 				993C1AC919E7042200C17601 /* LaunchScreen.xib in Resources */,
 				993C1AC619E7042200C17601 /* Images.xcassets in Resources */,
+				997D7A2819E70F26002AB393 /* Pintxo2.mp3 in Resources */,
 				993C1ABD19E7042200C17601 /* GameScene.sks in Resources */,
 				993C1AC419E7042200C17601 /* Main.storyboard in Resources */,
 			);
@@ -415,6 +419,7 @@
 				993C1ADA19E7042200C17601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		993C1ADB19E7042200C17601 /* Build configuration list for PBXNativeTarget "TxoroTxoriTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				993C1ADD19E7042200C17601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
