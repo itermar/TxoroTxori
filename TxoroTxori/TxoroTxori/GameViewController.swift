@@ -29,20 +29,28 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
-            // Configure the view.
-            let skView = self.view as SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            skView.presentScene(scene)
-        }
+//        if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
+//            // Configure the view.
+//            let skView = self.view as SKView
+//            skView.showsFPS = false
+//            skView.showsNodeCount = false
+//            
+//            /* Sprite Kit applies additional optimizations to improve rendering performance */
+//            // skView.ignoresSiblingOrder = true
+//            
+//            /* Set the scale mode to scale to fit the window */
+//            scene.scaleMode = .AspectFill
+//            
+//            skView.presentScene(scene)
+//        }
+        
+       let skView = self.view as SKView
+        skView.ignoresSiblingOrder = true
+        
+        var menu = Menu(size:skView.bounds.size)
+        menu.scaleMode = .AspectFill
+        skView.presentScene(menu)
+        
     }
     
     override func shouldAutorotate() -> Bool {

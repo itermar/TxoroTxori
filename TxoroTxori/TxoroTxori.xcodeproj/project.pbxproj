@@ -16,6 +16,12 @@
 		993C1AC919E7042200C17601 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993C1AC719E7042200C17601 /* LaunchScreen.xib */; };
 		993C1AD519E7042200C17601 /* TxoroTxoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C1AD419E7042200C17601 /* TxoroTxoriTests.swift */; };
 		997D7A2819E70F26002AB393 /* Pintxo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 997D7A2719E70F26002AB393 /* Pintxo2.mp3 */; };
+		9987719519EA7FAF0045A334 /* Pintxo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9987719419EA7FAF0045A334 /* Pintxo1.mp3 */; };
+		9987719719EA7FBF0045A334 /* golpeTxori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9987719619EA7FBF0045A334 /* golpeTxori.mp3 */; };
+		9987719919EA7FCA0045A334 /* EfectoPuerta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9987719819EA7FCA0045A334 /* EfectoPuerta.wav */; };
+		9987719B19EA81660045A334 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987719A19EA81660045A334 /* Menu.swift */; };
+		9987719D19EA99580045A334 /* Creditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987719C19EA99580045A334 /* Creditos.swift */; };
+		9987719F19EAC4330045A334 /* titulo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9987719E19EAC4330045A334 /* titulo.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,12 @@
 		993C1AD319E7042200C17601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		993C1AD419E7042200C17601 /* TxoroTxoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxoroTxoriTests.swift; sourceTree = "<group>"; };
 		997D7A2719E70F26002AB393 /* Pintxo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pintxo2.mp3; sourceTree = "<group>"; };
+		9987719419EA7FAF0045A334 /* Pintxo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pintxo1.mp3; sourceTree = "<group>"; };
+		9987719619EA7FBF0045A334 /* golpeTxori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golpeTxori.mp3; sourceTree = "<group>"; };
+		9987719819EA7FCA0045A334 /* EfectoPuerta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EfectoPuerta.wav; sourceTree = "<group>"; };
+		9987719A19EA81660045A334 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../Menu.swift; sourceTree = "<group>"; };
+		9987719C19EA99580045A334 /* Creditos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Creditos.swift; path = ../Creditos.swift; sourceTree = "<group>"; };
+		9987719E19EAC4330045A334 /* titulo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = titulo.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +77,8 @@
 		993C1AAC19E7042200C17601 = {
 			isa = PBXGroup;
 			children = (
-				997D7A2719E70F26002AB393 /* Pintxo2.mp3 */,
+				9987719E19EAC4330045A334 /* titulo.atlas */,
+				9987719319EA7F7E0045A334 /* Música */,
 				993C1AB719E7042200C17601 /* TxoroTxori */,
 				993C1AD119E7042200C17601 /* TxoroTxoriTests */,
 				993C1AB619E7042200C17601 /* Products */,
@@ -87,6 +100,8 @@
 				993C1ABA19E7042200C17601 /* AppDelegate.swift */,
 				993C1ABC19E7042200C17601 /* GameScene.sks */,
 				993C1ABE19E7042200C17601 /* GameScene.swift */,
+				9987719A19EA81660045A334 /* Menu.swift */,
+				9987719C19EA99580045A334 /* Creditos.swift */,
 				993C1AC019E7042200C17601 /* GameViewController.swift */,
 				993C1AC219E7042200C17601 /* Main.storyboard */,
 				993C1AC519E7042200C17601 /* Images.xcassets */,
@@ -119,6 +134,17 @@
 				993C1AD319E7042200C17601 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9987719319EA7F7E0045A334 /* Música */ = {
+			isa = PBXGroup;
+			children = (
+				9987719819EA7FCA0045A334 /* EfectoPuerta.wav */,
+				9987719619EA7FBF0045A334 /* golpeTxori.mp3 */,
+				9987719419EA7FAF0045A334 /* Pintxo1.mp3 */,
+				997D7A2719E70F26002AB393 /* Pintxo2.mp3 */,
+			);
+			name = "Música";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +229,12 @@
 			files = (
 				993C1AC919E7042200C17601 /* LaunchScreen.xib in Resources */,
 				993C1AC619E7042200C17601 /* Images.xcassets in Resources */,
+				9987719519EA7FAF0045A334 /* Pintxo1.mp3 in Resources */,
+				9987719919EA7FCA0045A334 /* EfectoPuerta.wav in Resources */,
+				9987719719EA7FBF0045A334 /* golpeTxori.mp3 in Resources */,
 				997D7A2819E70F26002AB393 /* Pintxo2.mp3 in Resources */,
 				993C1ABD19E7042200C17601 /* GameScene.sks in Resources */,
+				9987719F19EAC4330045A334 /* titulo.atlas in Resources */,
 				993C1AC419E7042200C17601 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				993C1ABF19E7042200C17601 /* GameScene.swift in Sources */,
+				9987719D19EA99580045A334 /* Creditos.swift in Sources */,
 				993C1AC119E7042200C17601 /* GameViewController.swift in Sources */,
+				9987719B19EA81660045A334 /* Menu.swift in Sources */,
 				993C1ABB19E7042200C17601 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
