@@ -20,6 +20,12 @@ class Creditos: SKScene {
     var reproductor:AVAudioPlayer?
     
     
+    func startReproductor(){
+        var rutaMusica = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Pintxo1", ofType: ".mp3")!)
+        reproductor = AVAudioPlayer(contentsOfURL: rutaMusica, error: nil)
+        reproductor?.prepareToPlay()
+        
+    }
    
     
 }
